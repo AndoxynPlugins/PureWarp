@@ -4,3 +4,29 @@ version: ${project.version}
 author: Dabo Ross
 description: Pure warps
 url: https://github.com/daboross/PureWarp
+commands:
+  pwarp:
+    permission: purewarp.warp
+    usage: '§7/<command> §4[§cname§4]'
+    aliases: [warp]
+  psetwarp:
+    permission: purewarp.setwarp
+    usage: '§7/<command> §4[§cName§4]'
+    aliases: [setwarp]
+  punsetwarp:
+    permission: purewarp.unsetwarp
+    usage: '§7/<command> §4[§cName§4]'
+    aliases: [unsetwarp]
+  plistwarps:
+    permission: purewarp.listwarps
+    usage: '§7/<command>'
+    aliases: [listwarps]
+  pback:
+    permission: purewarp.back
+    usage: '§7/<command>'
+    aliases: [back]
+permissions:
+  purewarp.warp:
+    default: true
+  purewarp.back:
+    default: true
