@@ -1,0 +1,6 @@
+name: ${project.name}
+main: net.daboross.bukkitdev.purewarp.PureWarpPlugin
+version: ${project.version}
+author: Dabo Ross
+description: Pure warps
+url: https://github.com/daboross/PureWarp
