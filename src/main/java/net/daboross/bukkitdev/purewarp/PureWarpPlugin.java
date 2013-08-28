@@ -53,7 +53,7 @@ public class PureWarpPlugin extends JavaPlugin implements Listener {
         try {
             metrics = new MetricsLite(this);
         } catch (IOException ex) {
-            getLogger().log(Level.WARNING, "Unable to create Metrics", ex);
+            getLogger().log(Level.WARNING, "Unable to create Metrics: {0}", ex.toString());
         }
         if (metrics != null) {
             metrics.start();
